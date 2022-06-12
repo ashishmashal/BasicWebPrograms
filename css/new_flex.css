@@ -1,0 +1,55 @@
+<style>
+html{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+        body {padding: 2em;}
+
+        .headerContainer{
+                display: flex;
+                flex-flow: column wrap;
+                align-content: center;
+                background: tomato;
+                color: white;
+                font-weight: bold;
+                padding: 10px;
+                -ms-flex-item-align: start;
+        }
+        .footer{
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background-color: green;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .mainContainer{
+                display: flex;
+                flex-flow: row wrap;
+                font-weight: bold;
+                text-align: center;
+        }
+        .mainContentItem{
+            text-align: left;
+            background-color: deepskyblue;
+        }
+        article{
+            padding: 10px;
+            margin: 10px;
+            background-color: aqua;
+        }
+        .sideBarLeftItom{
+            background-color: gold;
+        }
+        .sideBarRightItom{
+            background-color: hotpink;
+            
+        }
+        .SideBarItom{
+            flex: 1 0 0; border: 0px solid green;
+        }
+        .mainContentItem{ flex: 3 0px;}
+        .sideBarLeftItom{order: 1;}
+        .mainContentItem{order: 2;}
+        .sideBarRightItom{order: 3;}
+    </style>
